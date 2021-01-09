@@ -1,0 +1,850 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		029D8C63448F88317BBC6F9A /* libPods-KambistaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E958D431993ABD6543D796E /* libPods-KambistaTests.a */; };
+		37AABA0090FDEF275D946295 /* libPods-KambistaUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F4C9100F25E6984796D29E5 /* libPods-KambistaUITests.a */; };
+		773D5FFE37348410AE6816A5 /* Pods_Kambista.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D527A2F4F17A673B480AF1C9 /* Pods_Kambista.framework */; };
+		FA64E11325A7CE2100105674 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA64E11225A7CE2100105674 /* AppDelegate.swift */; };
+		FA64E11525A7CE2100105674 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA64E11425A7CE2100105674 /* SceneDelegate.swift */; };
+		FA64E11A25A7CE2100105674 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA64E11825A7CE2100105674 /* Main.storyboard */; };
+		FA64E11C25A7CE2400105674 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA64E11B25A7CE2400105674 /* Assets.xcassets */; };
+		FA64E11F25A7CE2400105674 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA64E11D25A7CE2400105674 /* LaunchScreen.storyboard */; };
+		FA64E12A25A7CE2400105674 /* KambistaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA64E12925A7CE2400105674 /* KambistaTests.swift */; };
+		FA64E13525A7CE2400105674 /* KambistaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA64E13425A7CE2400105674 /* KambistaUITests.swift */; };
+		FA64E14925A7CFBC00105674 /* DBLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA64E14825A7CFBC00105674 /* DBLoginViewController.swift */; };
+		FA64E14D25A7D6ED00105674 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA64E14C25A7D6EC00105674 /* Roboto-Thin.ttf */; };
+		FA64E14F25A7D7ED00105674 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA64E14E25A7D7ED00105674 /* Roboto-Bold.ttf */; };
+		FA64E15525A7DCCA00105674 /* DBWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA64E15425A7DCCA00105674 /* DBWebService.swift */; };
+		FA7F723025A8E6C2003193CF /* DBLoginViewModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F722F25A8E6C2003193CF /* DBLoginViewModelController.swift */; };
+		FA7F723225A921D7003193CF /* DBLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F723125A921D7003193CF /* DBLogin.swift */; };
+		FA7F723425A92CA8003193CF /* DBLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F723325A92CA8003193CF /* DBLoginViewModel.swift */; };
+		FA7F723825A93AAD003193CF /* DBWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F723725A93AAD003193CF /* DBWelcomeViewController.swift */; };
+		FAF6D55625AA192C00EBE366 /* DBUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF6D55525AA192C00EBE366 /* DBUserViewModel.swift */; };
+		FAF6D55925AA199E00EBE366 /* DBUserViewModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF6D55825AA199E00EBE366 /* DBUserViewModelController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA64E12625A7CE2400105674 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA64E10725A7CE2100105674 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA64E10E25A7CE2100105674;
+			remoteInfo = Kambista;
+		};
+		FA64E13125A7CE2400105674 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA64E10725A7CE2100105674 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA64E10E25A7CE2100105674;
+			remoteInfo = Kambista;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C17CAAEAEDE3D9BC7ACBB8A /* Pods-Kambista.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kambista.release.xcconfig"; path = "Target Support Files/Pods-Kambista/Pods-Kambista.release.xcconfig"; sourceTree = "<group>"; };
+		3A4E4E1C7192C76DE2356431 /* Pods-KambistaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KambistaTests.debug.xcconfig"; path = "Target Support Files/Pods-KambistaTests/Pods-KambistaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4E958D431993ABD6543D796E /* libPods-KambistaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KambistaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		744770522B196AD81F40E821 /* Pods-KambistaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KambistaUITests.debug.xcconfig"; path = "Target Support Files/Pods-KambistaUITests/Pods-KambistaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7F4C9100F25E6984796D29E5 /* libPods-KambistaUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KambistaUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADB022F1208034D62232BFB5 /* Pods-KambistaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KambistaUITests.release.xcconfig"; path = "Target Support Files/Pods-KambistaUITests/Pods-KambistaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B1653BCF9230D853260246CD /* Pods-Kambista.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kambista.debug.xcconfig"; path = "Target Support Files/Pods-Kambista/Pods-Kambista.debug.xcconfig"; sourceTree = "<group>"; };
+		CE1093F2F6E0176B9FBD572B /* Pods-KambistaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KambistaTests.release.xcconfig"; path = "Target Support Files/Pods-KambistaTests/Pods-KambistaTests.release.xcconfig"; sourceTree = "<group>"; };
+		D527A2F4F17A673B480AF1C9 /* Pods_Kambista.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kambista.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA64E10F25A7CE2100105674 /* Kambista.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kambista.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA64E11225A7CE2100105674 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA64E11425A7CE2100105674 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FA64E11925A7CE2100105674 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA64E11B25A7CE2400105674 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA64E11E25A7CE2400105674 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA64E12025A7CE2400105674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA64E12525A7CE2400105674 /* KambistaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KambistaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA64E12925A7CE2400105674 /* KambistaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KambistaTests.swift; sourceTree = "<group>"; };
+		FA64E12B25A7CE2400105674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA64E13025A7CE2400105674 /* KambistaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KambistaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA64E13425A7CE2400105674 /* KambistaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KambistaUITests.swift; sourceTree = "<group>"; };
+		FA64E13625A7CE2400105674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA64E14825A7CFBC00105674 /* DBLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBLoginViewController.swift; sourceTree = "<group>"; };
+		FA64E14C25A7D6EC00105674 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		FA64E14E25A7D7ED00105674 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		FA64E15425A7DCCA00105674 /* DBWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBWebService.swift; sourceTree = "<group>"; };
+		FA7F722F25A8E6C2003193CF /* DBLoginViewModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBLoginViewModelController.swift; sourceTree = "<group>"; };
+		FA7F723125A921D7003193CF /* DBLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBLogin.swift; sourceTree = "<group>"; };
+		FA7F723325A92CA8003193CF /* DBLoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBLoginViewModel.swift; sourceTree = "<group>"; };
+		FA7F723725A93AAD003193CF /* DBWelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBWelcomeViewController.swift; sourceTree = "<group>"; };
+		FAF6D55525AA192C00EBE366 /* DBUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBUserViewModel.swift; sourceTree = "<group>"; };
+		FAF6D55825AA199E00EBE366 /* DBUserViewModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBUserViewModelController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA64E10C25A7CE2100105674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773D5FFE37348410AE6816A5 /* Pods_Kambista.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA64E12225A7CE2400105674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				029D8C63448F88317BBC6F9A /* libPods-KambistaTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA64E12D25A7CE2400105674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37AABA0090FDEF275D946295 /* libPods-KambistaUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20F07786018E935398A2735D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1653BCF9230D853260246CD /* Pods-Kambista.debug.xcconfig */,
+				2C17CAAEAEDE3D9BC7ACBB8A /* Pods-Kambista.release.xcconfig */,
+				3A4E4E1C7192C76DE2356431 /* Pods-KambistaTests.debug.xcconfig */,
+				CE1093F2F6E0176B9FBD572B /* Pods-KambistaTests.release.xcconfig */,
+				744770522B196AD81F40E821 /* Pods-KambistaUITests.debug.xcconfig */,
+				ADB022F1208034D62232BFB5 /* Pods-KambistaUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		361D2886A60C05548997CA6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D527A2F4F17A673B480AF1C9 /* Pods_Kambista.framework */,
+				4E958D431993ABD6543D796E /* libPods-KambistaTests.a */,
+				7F4C9100F25E6984796D29E5 /* libPods-KambistaUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA64E10625A7CE2100105674 = {
+			isa = PBXGroup;
+			children = (
+				FA64E11125A7CE2100105674 /* Kambista */,
+				FA64E12825A7CE2400105674 /* KambistaTests */,
+				FA64E13325A7CE2400105674 /* KambistaUITests */,
+				FA64E11025A7CE2100105674 /* Products */,
+				20F07786018E935398A2735D /* Pods */,
+				361D2886A60C05548997CA6A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA64E11025A7CE2100105674 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA64E10F25A7CE2100105674 /* Kambista.app */,
+				FA64E12525A7CE2400105674 /* KambistaTests.xctest */,
+				FA64E13025A7CE2400105674 /* KambistaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA64E11125A7CE2100105674 /* Kambista */ = {
+			isa = PBXGroup;
+			children = (
+				FA64E14A25A7D64000105674 /* Assets */,
+				FA64E15025A7DC0800105674 /* Manager */,
+				FA64E14225A7CE5100105674 /* Model */,
+				FA64E14325A7CE6100105674 /* ViewModel */,
+				FA64E14425A7CE6C00105674 /* View */,
+				FA64E11225A7CE2100105674 /* AppDelegate.swift */,
+				FA64E11425A7CE2100105674 /* SceneDelegate.swift */,
+				FA64E11D25A7CE2400105674 /* LaunchScreen.storyboard */,
+				FA64E12025A7CE2400105674 /* Info.plist */,
+			);
+			path = Kambista;
+			sourceTree = "<group>";
+		};
+		FA64E12825A7CE2400105674 /* KambistaTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA64E12925A7CE2400105674 /* KambistaTests.swift */,
+				FA64E12B25A7CE2400105674 /* Info.plist */,
+			);
+			path = KambistaTests;
+			sourceTree = "<group>";
+		};
+		FA64E13325A7CE2400105674 /* KambistaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA64E13425A7CE2400105674 /* KambistaUITests.swift */,
+				FA64E13625A7CE2400105674 /* Info.plist */,
+			);
+			path = KambistaUITests;
+			sourceTree = "<group>";
+		};
+		FA64E14225A7CE5100105674 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA7F723125A921D7003193CF /* DBLogin.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA64E14325A7CE6100105674 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FAF6D55725AA193500EBE366 /* User */,
+				FA7F722925A8E098003193CF /* Login */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FA64E14425A7CE6C00105674 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA7F722C25A8E0AA003193CF /* Controller */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA64E14525A7CE7E00105674 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FA64E11825A7CE2100105674 /* Main.storyboard */,
+				FA64E14825A7CFBC00105674 /* DBLoginViewController.swift */,
+				FA7F723725A93AAD003193CF /* DBWelcomeViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		FA64E14A25A7D64000105674 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				FA64E14B25A7D64A00105674 /* Fonts */,
+				FA64E11B25A7CE2400105674 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		FA64E14B25A7D64A00105674 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FA64E14E25A7D7ED00105674 /* Roboto-Bold.ttf */,
+				FA64E14C25A7D6EC00105674 /* Roboto-Thin.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		FA64E15025A7DC0800105674 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				FA64E15125A7DC1300105674 /* Networking */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		FA64E15125A7DC1300105674 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				FA64E15425A7DCCA00105674 /* DBWebService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		FA7F722925A8E098003193CF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FA7F722F25A8E6C2003193CF /* DBLoginViewModelController.swift */,
+				FA7F723325A92CA8003193CF /* DBLoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		FA7F722C25A8E0AA003193CF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FA64E14525A7CE7E00105674 /* Login */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FAF6D55725AA193500EBE366 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				FAF6D55525AA192C00EBE366 /* DBUserViewModel.swift */,
+				FAF6D55825AA199E00EBE366 /* DBUserViewModelController.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA64E10E25A7CE2100105674 /* Kambista */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA64E13925A7CE2400105674 /* Build configuration list for PBXNativeTarget "Kambista" */;
+			buildPhases = (
+				62A63F5F8DB6F84553815732 /* [CP] Check Pods Manifest.lock */,
+				FA64E10B25A7CE2100105674 /* Sources */,
+				FA64E10C25A7CE2100105674 /* Frameworks */,
+				FA64E10D25A7CE2100105674 /* Resources */,
+				99F296A48C042DB417299BEC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kambista;
+			productName = Kambista;
+			productReference = FA64E10F25A7CE2100105674 /* Kambista.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA64E12425A7CE2400105674 /* KambistaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA64E13C25A7CE2400105674 /* Build configuration list for PBXNativeTarget "KambistaTests" */;
+			buildPhases = (
+				7D17B61A4CEFF8072B2F39B0 /* [CP] Check Pods Manifest.lock */,
+				FA64E12125A7CE2400105674 /* Sources */,
+				FA64E12225A7CE2400105674 /* Frameworks */,
+				FA64E12325A7CE2400105674 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA64E12725A7CE2400105674 /* PBXTargetDependency */,
+			);
+			name = KambistaTests;
+			productName = KambistaTests;
+			productReference = FA64E12525A7CE2400105674 /* KambistaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA64E12F25A7CE2400105674 /* KambistaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA64E13F25A7CE2400105674 /* Build configuration list for PBXNativeTarget "KambistaUITests" */;
+			buildPhases = (
+				E9B69B9981E192F4FB6539C0 /* [CP] Check Pods Manifest.lock */,
+				FA64E12C25A7CE2400105674 /* Sources */,
+				FA64E12D25A7CE2400105674 /* Frameworks */,
+				FA64E12E25A7CE2400105674 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA64E13225A7CE2400105674 /* PBXTargetDependency */,
+			);
+			name = KambistaUITests;
+			productName = KambistaUITests;
+			productReference = FA64E13025A7CE2400105674 /* KambistaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA64E10725A7CE2100105674 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DB;
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = derlys;
+				TargetAttributes = {
+					FA64E10E25A7CE2100105674 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					FA64E12425A7CE2400105674 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = FA64E10E25A7CE2100105674;
+					};
+					FA64E12F25A7CE2400105674 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = FA64E10E25A7CE2100105674;
+					};
+				};
+			};
+			buildConfigurationList = FA64E10A25A7CE2100105674 /* Build configuration list for PBXProject "Kambista" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA64E10625A7CE2100105674;
+			productRefGroup = FA64E11025A7CE2100105674 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA64E10E25A7CE2100105674 /* Kambista */,
+				FA64E12425A7CE2400105674 /* KambistaTests */,
+				FA64E12F25A7CE2400105674 /* KambistaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA64E10D25A7CE2100105674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA64E14D25A7D6ED00105674 /* Roboto-Thin.ttf in Resources */,
+				FA64E11F25A7CE2400105674 /* LaunchScreen.storyboard in Resources */,
+				FA64E14F25A7D7ED00105674 /* Roboto-Bold.ttf in Resources */,
+				FA64E11C25A7CE2400105674 /* Assets.xcassets in Resources */,
+				FA64E11A25A7CE2100105674 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA64E12325A7CE2400105674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA64E12E25A7CE2400105674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		62A63F5F8DB6F84553815732 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kambista-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D17B61A4CEFF8072B2F39B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KambistaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99F296A48C042DB417299BEC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kambista/Pods-Kambista-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kambista/Pods-Kambista-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kambista/Pods-Kambista-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9B69B9981E192F4FB6539C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KambistaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA64E10B25A7CE2100105674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA64E11325A7CE2100105674 /* AppDelegate.swift in Sources */,
+				FA7F723825A93AAD003193CF /* DBWelcomeViewController.swift in Sources */,
+				FAF6D55625AA192C00EBE366 /* DBUserViewModel.swift in Sources */,
+				FA7F723025A8E6C2003193CF /* DBLoginViewModelController.swift in Sources */,
+				FA64E11525A7CE2100105674 /* SceneDelegate.swift in Sources */,
+				FA7F723225A921D7003193CF /* DBLogin.swift in Sources */,
+				FA64E15525A7DCCA00105674 /* DBWebService.swift in Sources */,
+				FA7F723425A92CA8003193CF /* DBLoginViewModel.swift in Sources */,
+				FA64E14925A7CFBC00105674 /* DBLoginViewController.swift in Sources */,
+				FAF6D55925AA199E00EBE366 /* DBUserViewModelController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA64E12125A7CE2400105674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA64E12A25A7CE2400105674 /* KambistaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA64E12C25A7CE2400105674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA64E13525A7CE2400105674 /* KambistaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA64E12725A7CE2400105674 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA64E10E25A7CE2100105674 /* Kambista */;
+			targetProxy = FA64E12625A7CE2400105674 /* PBXContainerItemProxy */;
+		};
+		FA64E13225A7CE2400105674 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA64E10E25A7CE2100105674 /* Kambista */;
+			targetProxy = FA64E13125A7CE2400105674 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA64E11825A7CE2100105674 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA64E11925A7CE2100105674 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA64E11D25A7CE2400105674 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA64E11E25A7CE2400105674 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA64E13725A7CE2400105674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA64E13825A7CE2400105674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA64E13A25A7CE2400105674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1653BCF9230D853260246CD /* Pods-Kambista.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Kambista/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.derlys.Kambista;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA64E13B25A7CE2400105674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C17CAAEAEDE3D9BC7ACBB8A /* Pods-Kambista.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Kambista/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.derlys.Kambista;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA64E13D25A7CE2400105674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A4E4E1C7192C76DE2356431 /* Pods-KambistaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KambistaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.derlys.KambistaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kambista.app/Kambista";
+			};
+			name = Debug;
+		};
+		FA64E13E25A7CE2400105674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE1093F2F6E0176B9FBD572B /* Pods-KambistaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KambistaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.derlys.KambistaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kambista.app/Kambista";
+			};
+			name = Release;
+		};
+		FA64E14025A7CE2400105674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 744770522B196AD81F40E821 /* Pods-KambistaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KambistaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.derlys.KambistaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kambista;
+			};
+			name = Debug;
+		};
+		FA64E14125A7CE2400105674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADB022F1208034D62232BFB5 /* Pods-KambistaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KambistaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.derlys.KambistaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kambista;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA64E10A25A7CE2100105674 /* Build configuration list for PBXProject "Kambista" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA64E13725A7CE2400105674 /* Debug */,
+				FA64E13825A7CE2400105674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA64E13925A7CE2400105674 /* Build configuration list for PBXNativeTarget "Kambista" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA64E13A25A7CE2400105674 /* Debug */,
+				FA64E13B25A7CE2400105674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA64E13C25A7CE2400105674 /* Build configuration list for PBXNativeTarget "KambistaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA64E13D25A7CE2400105674 /* Debug */,
+				FA64E13E25A7CE2400105674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA64E13F25A7CE2400105674 /* Build configuration list for PBXNativeTarget "KambistaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA64E14025A7CE2400105674 /* Debug */,
+				FA64E14125A7CE2400105674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA64E10725A7CE2100105674 /* Project object */;
+}

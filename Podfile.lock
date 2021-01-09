@@ -1,0 +1,29 @@
+PODS:
+  - Alamofire (5.4.1)
+  - IQKeyboardManagerSwift (6.5.7)
+
+DEPENDENCIES:
+  - Alamofire (from `https://github.com/Alamofire/Alamofire.git`)
+  - IQKeyboardManagerSwift (from `https://github.com/hackiftekhar/IQKeyboardManager`)
+
+EXTERNAL SOURCES:
+  Alamofire:
+    :git: https://github.com/Alamofire/Alamofire.git
+  IQKeyboardManagerSwift:
+    :git: https://github.com/hackiftekhar/IQKeyboardManager
+
+CHECKOUT OPTIONS:
+  Alamofire:
+    :commit: eaf6e622dd41b07b251d8f01752eab31bc811493
+    :git: https://github.com/Alamofire/Alamofire.git
+  IQKeyboardManagerSwift:
+    :commit: 641ef9f19960a8ecdf22bc89290d0ba56ed37826
+    :git: https://github.com/hackiftekhar/IQKeyboardManager
+
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  IQKeyboardManagerSwift: 7d651cf47a4fb6a4d721e16ef15ec52cef6d57ce
+
+PODFILE CHECKSUM: b57c7893779df5acd37f1422e3aa5a1427678dec
+
+COCOAPODS: 1.9.1
